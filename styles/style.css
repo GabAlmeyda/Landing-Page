@@ -110,7 +110,7 @@ body, html {
     display: flex;
     align-items: center;
 
-    height: 35px;
+    height: 45px;
     width: 90%;
 
     margin: auto;
@@ -143,19 +143,29 @@ body, html {
 }
 
 #form-container #register-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
     margin-top: 50px;
 }
 
+#form-container #register-container > div {
+    width: 90%;
+}
+
 #form-container #register-container #termsResp {
+
     transform: scale(1.5);
     -webkit-transform: scale(1.5);
     -moz-transform: scale(1.5);
 
-    margin-right: 10px;
+    margin-right: 5px;
+
 }
 
 #form-container #register-container input[type=submit] {
-    display: block;
 
     width: 90%;
 
