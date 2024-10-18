@@ -17,10 +17,13 @@
 </head>
 
 <body>
+    <header>
+        <h1>NOME DA EMPRESA</h1>
+    </header>
+
     <main>
         <!-- The top image container -->
         <div id="image-container">
-            <div id="image"></div>
             <div class="content">
                 <h1>Participe agora da maior comunidade de T.I. do Brasil</h1>
                 <h2>Tenha contato com os melhores profissionais a qualquer momento e com acesso à diversas ferramentas, tudo em um só lugar!</h2>
@@ -82,7 +85,7 @@
 
                 <div class="input-container">
                     <div class="icon">
-                        <span class="material-icons">face</span>
+                        <span class="material-icons">email</span>
                     </div>
                     <label for="idEmail">Email:</label>
                     <input type="email" name="email" id="idEmail" autocomplete="email" placeholder="Seu email" required>
@@ -90,7 +93,7 @@
 
                 <div class="input-container">
                     <div class="icon">
-                        <span class="material-icons">face</span>
+                        <span class="material-icons">phone</span>
                     </div>
                     <label for="idTel">telefone:</label>
                     <input type="tel" name="tel" id="idTel" autocomplete="tel" pattern="^\(\d{2}\) \d{4,5}-\d{4}$" placeholder="(xx) xxxxx-xxxx" required>
@@ -102,11 +105,15 @@
                         <label for="termsResp">Concordo com os Termos de Privacidade e o Serviço de Coleta de Dados.</label>
                     </div>
                     
-                    <input type="submit" id="submit-button" value="Quero me cadastrar">
+                    <input type="submit" id="submit-button" value="Quero me cadastrar" disabled>
                 </div>
             </form>
         </div>
     </main>
+
+    <footer>
+        <p><small>Site criado por <a href="http://instagram/gab.almeyda" target="_blank" rel="noopener noreferrer">Almeida de Lima</a></small></p>
+    </footer>
 </body>
 
 </html>

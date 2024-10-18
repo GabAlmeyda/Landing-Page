@@ -19,15 +19,38 @@ body, html {
     background-color: #101010;
 }
 
+header {
+    position: relative;
+    z-index: 1;
+
+    height: 7vh;
+
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.493);
+
+    background-color: #63007C;
+
+    color: white;
+    text-align: center;
+}
+
+header h1 {
+    padding: 10px;
+}
+
+main {
+    position: relative;
+    z-index: 0;
+}
+
 #image-container {
     position: relative;
 
-    height: 50vh;
+    height: 55vh;
 
     padding: 10px;
     margin-bottom: 20px;
 
-    background: lightslategrey url("../images/top-image01.jpg") no-repeat scroll center / cover;
+    background: lightslategrey url("../images/top-image02.jpg") no-repeat scroll center / cover;
 }
 
 #image-container::before {
@@ -79,8 +102,9 @@ body, html {
     height: 15vh;
 
     margin: auto;
-    margin-bottom: 10px;
-    border-radius: 10px;
+    margin-bottom: 15px;
+    border-radius: 0;
+
 }
 
 #topics-container .topic .icon span{
@@ -90,6 +114,9 @@ body, html {
 }
 
 #topics-container .topic .topic-content p {
+    padding-left: 10px;
+    border-left: 2px solid #a202f0;
+
     font-size: 1rem;
     color: white;
 }
@@ -172,16 +199,26 @@ body, html {
     margin: auto;
     margin-top: 15px;
     padding: 10px;
-    border: 2px solid #a202f0;
+    border: 2px solid rgb(26, 223, 141);
     border-radius: 20px;
 
     background-color: transparent;
 
-    color: #a202f0;
+    color: rgb(26, 223, 141);
     font-weight: bold;
     font-size: 1.2rem;
 }
 
-#form-container #register-container input[type=submit]:hover {
-    background-color: #8D00B0;
+footer {
+    background-color: #63007C;
+
+    color: white;
+    text-align: center;
+    padding: 4px;
+}
+
+footer a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(26, 223, 141);
 }

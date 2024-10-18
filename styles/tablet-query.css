@@ -1,1 +1,28 @@
 /* Media Query for tablet screen */
+
+html {
+    font-size: 1.7rem;
+}
+
+#form-container .input-container{
+    height: 60px;
+}
+
+#form-container .input-container .icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 60px;    
+}
+
+#form-container .input-container .icon span{
+    width: 60px;
+    
+    font-size: 48px;
+}
+
+#form-container .input-container input {
+    width: calc(100% - 63px); /* 47 because is 24 of the icon and 2 * 10 of the padding = 44. 3 is addicional */
+    height: calc(100% - 6px); /* 6 because is the addicional space of the width (3) times 2 */
+}

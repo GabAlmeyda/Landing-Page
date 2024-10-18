@@ -12,9 +12,9 @@ function checkSubmitButton() {
 function activateButton() {
     const bt_submit = document.querySelector("#submit-button");
 
-    bt_submit.style.border = "2px solid #a202f0";
+    bt_submit.style.border = "2px solid rgb(26, 223, 141)";
 
-    bt_submit.style.backgroundColor = "#a202f0";
+    bt_submit.style.backgroundColor = "rgb(26, 223, 141)";
 
     bt_submit.style.color = "white";
 };
@@ -22,11 +22,11 @@ function activateButton() {
 function disableButton() {
     const bt_submit = document.querySelector("#submit-button");
 
-    bt_submit.style.border = "2px solid #a202f0";
+    bt_submit.style.border = "2px solid rgb(26, 223, 141)";
 
     bt_submit.style.backgroundColor = "transparent";
 
-    bt_submit.style.color = "#a202f0";
+    bt_submit.style.color = "rgb(26, 223, 141)";
 };
 
 const check_input = document.querySelector("#termsResp");
