@@ -87,6 +87,20 @@ main {
     padding: 10px; 
 }
 
+#topics-container p {
+    margin-bottom: 15px;
+
+    line-height: 2rem;
+    font-size: 1rem;
+}
+
+#topics-container strong {
+    padding: 3px 5px;
+    border-radius: 5px;
+
+    background-color: #a202f0;
+}
+
 #topics-container h2 {
     margin-bottom: 20px;
 
@@ -99,7 +113,6 @@ main {
     align-items: center;
 
     width: 90%;
-    height: 15vh;
 
     margin: auto;
     margin-bottom: 15px;
@@ -118,6 +131,7 @@ main {
     border-left: 2px solid #a202f0;
 
     font-size: 1rem;
+    line-height: 1.7rem;
     color: white;
 }
 
@@ -165,10 +179,15 @@ main {
     border-radius: 7px;
     outline: none;
 
+    background-color: lightblue;
+
     color: black;
     font-weight: 500;
 }
 
+#form-container .input-container input:focus-within {
+    background-color: white;
+}
 #form-container #register-container {
     display: flex;
     align-items: center;
