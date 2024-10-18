@@ -1,1 +1,47 @@
 /* Media Query for desktop screen */
+html {
+    font-size: 1.5rem;
+}
+
+main {
+    max-width: 1000px;
+
+    margin: auto;
+}
+
+#image-container {
+    height: 90vh;
+
+    padding: 20px;
+}
+
+#image-container h1 {
+    font-size: 2rem;
+}
+
+#image-container h2 {
+    font-size: 1.4rem;
+}
+
+#topics-container {
+    padding: 20px;
+}
+
+#topics-container .topic {
+    margin-bottom: 30px;
+}
+
+#form-container {
+    padding: 20px;
+}
+
+#form-container #image-container-2 {
+    height: 100vh;
+
+    margin: -20px;
+    margin-bottom: 20px;
+}
+
+#form-container #image-container-2 h3 {
+    font-size: 3rem;
+}
