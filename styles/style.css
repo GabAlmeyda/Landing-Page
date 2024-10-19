@@ -26,23 +26,78 @@ main {
 }
 
 header {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: block;
+
+
     position: relative;
     z-index: 1;
 
-    height: 7vh;
+    max-height: 12vh;
 
     box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.493);
 
     background-color: #63007C;
+    text-align: center;
 
     color: white;
 }
 
 header h1 {
     padding: 10px;
+}
+
+header #menu {
+    display: block;
+    position: relative;
+
+    box-shadow: 0px -3px 5px rgba(0, 0, 0, 0.164);
+
+    text-align: center;
+}
+
+header #menu #menu-toggle {
+    display: none;
+}
+
+header #menu label[for=menu-toggle] .icon:hover {
+    background-color: #a202f0;
+}
+
+header #menu nav {
+    display: block;
+    overflow: hidden;
+
+    max-height: 0;
+
+    transition: max-height 0.5s ease-in-out;
+}
+
+header #menu #menu-toggle:checked ~ nav{
+    max-height: 130px;
+}
+
+header #menu nav ul li {
+    display: block;
+
+    border-top: 2px solid #a202f0;
+
+    background-color: #63007C;
+
+    list-style-type: none;
+}
+
+header #menu nav ul li a {
+    display: block;
+
+    padding: 3px 5px;
+
+    text-decoration: none;
+}
+
+header #menu nav ul li a:hover {
+    background-color: #a202f0;
+
+    font-weight: bold;
 }
 
 main {
