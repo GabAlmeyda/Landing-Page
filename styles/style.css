@@ -28,11 +28,10 @@ main {
 header {
     display: block;
 
-
     position: relative;
     z-index: 1;
 
-    max-height: 12vh;
+    max-height: 250px;
 
     box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.493);
 
@@ -48,7 +47,6 @@ header h1 {
 
 header #menu {
     display: block;
-    position: relative;
 
     box-shadow: 0px -3px 5px rgba(0, 0, 0, 0.164);
 
@@ -73,12 +71,10 @@ header #menu nav {
 }
 
 header #menu #menu-toggle:checked ~ nav{
-    max-height: 130px;
+    max-height: 200px;
 }
 
 header #menu nav ul li {
-    display: block;
-
     border-top: 2px solid #a202f0;
 
     background-color: #63007C;
